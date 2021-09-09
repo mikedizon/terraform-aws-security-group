@@ -1,3 +1,8 @@
+variable "region" {
+  type        = string
+  description = "AWS Region"
+}
+
 variable "target_security_group_id" {
   type        = list(string)
   default     = []
